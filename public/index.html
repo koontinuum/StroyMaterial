@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="../styles/output-style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex overflow-auto">
+    <ul class="navBar">
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn"
+          ><img
+            class="w-[60px] h-[60px]"
+            src="../assets/navBarIcons/drywall.jpg"
+            alt=""
+        /></a>
+        <div class="dropdown-content">
+          <div class="px-10 py-10">
+            <h1 class="text-2xl">Стеновые и фасадные материалы</h1>
+            <div class="flex flex-wrap gap-8">
+              <a href="" class="flex items-center flex-col w-[140px] h-[155px]">
+                <img
+                  class="w-[100px] h-[100px]"
+                  src="../assets/navProducts/gazobeton.jpg"
+                  alt=""
+                />
+                <b class="">Газобетон и плиты</b>
+              </a>
+              <a href="" class="flex items-center flex-col w-[140px] h-[155px]">
+                <img
+                  class="w-[100px] h-[100px]"
+                  src="../assets/navProducts/gipsokarton.jpg"
+                  alt=""
+                />
+                <b class="">Гибсокартон</b>
+              </a>
+              <a href="" class="flex items-center flex-col w-[140px] h-[155px]">
+                <img
+                  class="w-[100px] h-[100px]"
+                  src="../assets/navProducts/dvp.jpg"
+                  alt=""
+                />
+                <b class="">ДВП, фанеры.</b>
+              </a>
+              <a href="" class="flex items-center flex-col w-[140px] h-[155px]">
+                <img
+                  class="w-[100px] h-[100px]"
+                  src="../assets/navProducts/kirpich.jpg"
+                  alt=""
+                />
+                <b class="">Кирпичи, карамзиты высшего сорта</b>
+              </a>
+              <a href="" class="flex items-center flex-col w-[140px] h-[155px]">
+                <img
+                  class="w-[100px] h-[100px]"
+                  src="../assets/navProducts/podves.jpg"
+                  alt=""
+                />
+                <b class="">Подвесы, cкобы, профили.</b>
+              </a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn"
+          ><img
+            class="w-[60px] h-[60px]"
+            src="../assets/navBarIcons/mixtures.jpg"
+            alt=""
+        /></a>
+        <div class="dropdown-content">
+          <div class="px-10 py-10">
+            <h1 class="text-2xl">Сухие строительные смеси</h1>
+            <div class="flex flex-wrap gap-8">
+              <a href="" class="flex items-center flex-col w-[140px] h-[155px]">
+                <img
+                  class="w-[100px] h-[100px]"
+                  src="../assets/navProducts/shpaclevka.jpg"
+                  alt=""
+                />
+                <b class="">Шпаклевка</b>
+              </a>
+              <a href="" class="flex items-center flex-col w-[140px] h-[155px]">
+                <img
+                  class="w-[100px] h-[100px]"
+                  src="../assets/navProducts/clei.jpg"
+                  alt=""
+                />
+                <b class="">Клеи</b>
+              </a>
+              <a href="" class="flex items-center flex-col w-[140px] h-[155px]">
+                <img
+                  class="w-[100px] h-[100px]"
+                  src="../assets/navProducts/peskoravcem.jpg"
+                  alt=""
+                />
+                <b class="">Пескобетон, ровнители, цементы.</b>
+              </a>
+              <a href="" class="flex items-center flex-col w-[140px] h-[155px]">
+                <img
+                  class="w-[100px] h-[100px]"
+                  src="../assets/navProducts/shpaklevka.jpg"
+                  alt=""
+                />
+                <b class="">Шпаклевка</b>
+              </a>
+              <a href="" class="flex items-center flex-col w-[140px] h-[155px]">
+                <img
+                  class="w-[100px] h-[100px]"
+                  src="../assets/navProducts/shtukaturki.jpg"
+                  alt=""
+                />
+                <b class="">Гибсовые и цементные штукатурки</b>
+              </a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn"
+          ><img
+            class="w-[60px] h-[60px]"
+            src="../assets/navBarIcons/paint.jpg"
+            alt=""
+        /></a>
+        <div class="dropdown-content">
+          <div class="px-10 py-10">
+            <h1 class="text-2xl">Лакокрасочные материалы</h1>
+            <div class="flex flex-wrap gap-8">
+              <a href="" class="flex items-center flex-col w-[140px] h-[155px]">
+                <img
+                  class="w-[100px] h-[100px]"
+                  src="../assets/navProducts/grunt.jpg"
+                  alt=""
+                />
+                <b class="">Грунт</b>
+              </a>
+              <a href="" class="flex items-center flex-col w-[140px] h-[155px]">
+                <img
+                  class="w-[100px] h-[100px]"
+                  src="../assets/navProducts/kley.jpg"
+                  alt=""
+                />
+                <b class="">Клеи</b>
+              </a>
+              <a href="" class="flex items-center flex-col w-[140px] h-[155px]">
+                <img
+                  class="w-[100px] h-[100px]"
+                  src="../assets/navProducts/rastvoritel.jpg"
+                  alt=""
+                />
+                <b class="">Растворители и обезжирователи.</b>
+              </a>
+              <a href="" class="flex items-center flex-col w-[140px] h-[155px]">
+                <img
+                  class="w-[100px] h-[100px]"
+                  src="../assets/navProducts/kraski.jpg"
+                  alt=""
+                />
+                <b class="">Краски</b>
+              </a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn"
+          ><img
+            class="w-[60px] h-[60px]"
+            src="../assets/navBarIcons/foam.jpg"
+            alt=""
+        /></a>
+        <div class="dropdown-content">
+          <div class="px-10 py-10">
+            <h1 class="text-2xl">Клеи, Пены, Герметики.</h1>
+            <div class="flex flex-wrap gap-8">
+              <a href="" class="flex items-center flex-col w-[140px] h-[155px]">
+                <img
+                  class="w-[100px] h-[100px]"
+                  src="../assets/navProducts/montazhnyeKley.jpg"
+                  alt=""
+                />
+                <b class="">Монтажные Клеи</b>
+              </a>
+              <a href="" class="flex items-center flex-col w-[140px] h-[155px]">
+                <img
+                  class="w-[100px] h-[100px]"
+                  src="../assets/navProducts/germetic.jpg"
+                  alt=""
+                />
+                <b class="">Герметики</b>
+              </a>
+              <a href="" class="flex items-center flex-col w-[140px] h-[155px]">
+                <img
+                  class="w-[100px] h-[100px]"
+                  src="../assets/navProducts/peny.jpg"
+                  alt=""
+                />
+                <b class="">Пены и очистители.</b>
+              </a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn"
+          ><img
+            class="w-[60px] h-[60px]"
+            src="../assets/navBarIcons/metal.jpg"
+            alt=""
+        /></a>
+        <div class="dropdown-content">
+          <div class="px-10 py-10">
+            <h1 class="text-2xl">Металлопрокат</h1>
+            <div class="flex flex-wrap gap-8">
+              <a href="" class="flex items-center flex-col w-[140px] h-[155px]">
+                <img
+                  class="w-[100px] h-[100px]"
+                  src="../assets/navProducts/armatura.jpg"
+                  alt=""
+                />
+                <b class="">Арматуры, проволоки.</b>
+              </a>
+              <a href="" class="flex items-center flex-col w-[140px] h-[155px]">
+                <img
+                  class="w-[100px] h-[100px]"
+                  src="../assets/navProducts/truba.jpg"
+                  alt=""
+                />
+                <b class="">Стальные трубы</b>
+              </a>
+              <a href="" class="flex items-center flex-col w-[140px] h-[155px]">
+                <img
+                  class="w-[100px] h-[100px]"
+                  src="../assets/navProducts/ugolky.jpg"
+                  alt=""
+                />
+                <b class="">Уголки</b>
+              </a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn"
+          ><img
+            class="w-[60px] h-[60px]"
+            src="../assets/navBarIcons/drow.jpg"
+            alt=""
+        /></a>
+        <div class="dropdown-content">
+          <div class="px-10 py-10">
+            <h1 class="text-2xl">Пиломатериалы</h1>
+            <div class="flex flex-col gap-8">
+              <a href="" class="flex items-center flex-col w-[140px] h-[155px]">
+                <img
+                  class="w-[100px] h-[100px]"
+                  src="../assets/navProducts/brus.jpg"
+                  alt=""
+                />
+                <b class="">Бруски</b>
+              </a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn"
+          ><img
+            class="w-[60px] h-[60px]"
+            src="../assets/navBarIcons/fitting.jpg"
+            alt=""
+        /></a>
+        <div class="dropdown-content">
+          <div class="px-10 py-10">
+            <h1 class="text-2xl">Сантехника</h1>
+            <div class="flex flex-wrap gap-8">
+              <a href="" class="flex items-center flex-col w-[140px] h-[155px]">
+                <img
+                  class="w-[100px] h-[100px]"
+                  src="../assets/navProducts/kran.jpg"
+                  alt=""
+                />
+                <b class="">Кран шаровой</b>
+              </a>
+              <a href="" class="flex items-center flex-col w-[140px] h-[155px]">
+                <img
+                  class="w-[100px] h-[100px]"
+                  src="../assets/navProducts/podvodki.jpg"
+                  alt=""
+                />
+                <b class="">Гибкие подводки</b>
+              </a>
+              <a href="" class="flex items-center flex-col w-[140px] h-[155px]">
+                <img
+                  class="w-[100px] h-[100px]"
+                  src="../assets/navProducts/poltruby.jpg"
+                  alt=""
+                />
+                <b class="">Полипропиленовые трубы</b>
+              </a>
+              <a href="" class="flex items-center flex-col w-[140px] h-[155px]">
+                <img
+                  class="w-[100px] h-[100px]"
+                  src="../assets/navProducts/polmufta.jpg"
+                  alt=""
+                />
+                <b class="">Муфта полипропиленовые</b>
+              </a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn"
+          ><img
+            class="w-[60px] h-[60px]"
+            src="../assets/navBarIcons/electric.jpg"
+            alt=""
+        /></a>
+        <div class="dropdown-content">
+          <div class="px-10 py-10">
+            <h1 class="text-2xl">Электрика</h1>
+            <div class="flex flex-wrap gap-8">
+              <a href="" class="flex items-center flex-col w-[140px] h-[155px]">
+                <img
+                  class="w-[100px] h-[100px]"
+                  src="../assets/navProducts/kabel.jpg"
+                  alt=""
+                />
+                <b class="">Кабели</b>
+              </a>
+              <a href="" class="flex items-center flex-col w-[140px] h-[155px]">
+                <img
+                  class="w-[100px] h-[100px]"
+                  src="../assets/navProducts/rozetka.jpg"
+                  alt=""
+                />
+                <b class="">Розетки, подрозетники.</b>
+              </a>
+              <a href="" class="flex items-center flex-col w-[140px] h-[155px]">
+                <img
+                  class="w-[100px] h-[100px]"
+                  src="../assets/navProducts/vykl.jpg"
+                  alt=""
+                />
+                <b class="">Выключатели</b>
+              </a>
+              <a href="" class="flex items-center flex-col w-[140px] h-[155px]">
+                <img
+                  class="w-[100px] h-[100px]"
+                  src="../assets/navProducts/avtomaty.jpg"
+                  alt=""
+                />
+                <b class="">Автоматы</b>
+              </a>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <div class="w-[100%] flex flex-col">
+      <header>
+        <input class="inputH" type="checkbox" id="toggle" />
+
+        <nav>
+          <a class="navbar-brand" href="#"
+            ><img class="w-[180px] h-[90px]" src="../assets/logo.png" alt=""
+          /></a>
+          <b
+            class="text-lg font-medium text-[#00a550] max-[935px]:hidden max-[1100px]:text-xs"
+            >Качество и надежность <br />
+            это наша главная цель!</b
+          >
+          <div
+            class="w-[430px] h-[45px] flex items-center bg-[#f1f1f1] pl-4 rounded-md max-[675px]:hidden max-[935px]:w-[270px]"
+          >
+            <input
+              class="w-[90%] h-[30px] outline-none bg-transparent"
+              type="search"
+              placeholder="Поиск..."
+            />
+            <button
+              class="w-[10%] h-[100%] bg-[#ddd] rounded-e-md flex items-center justify-center max-[935px]:w-[50px]"
+            >
+              <img class="w-[25px]" src="../assets/search.svg" alt="" />
+            </button>
+          </div>
+          <a class="max-[675px]:hidden" href="">
+            <img
+              class="w-[50px] h-[50px]"
+              src="../assets/basket.svg"
+              alt="basket"
+            />
+          </a>
+          <div class="flex items-center gap-4 max-[675px]:hidden">
+            <img
+              class="w-[50px] h-[50px]"
+              src="../assets/phone.svg"
+              alt="phone"
+            />
+            <div class="flex flex-col max-[935px]:hidden">
+              <b
+                class="text-[#00a550] transition duration-500 transform hover:scale-110 cursor-pointer"
+                >+79017029445</b
+              >
+              <b
+                class="text-[#00a550] transition duration-500 transform hover:scale-110 cursor-pointer"
+                >+79160540090</b
+              >
+            </div>
+          </div>
+          <label class="navbar-toggler" for="toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </label>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./categories.html"
+                >Страница категории</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./basket.html">Корзина</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Контакты и адреса</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">О нас</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div
+        class="flex items-center justify-between py-4 px-8 border-b max-[842px]:text-xs max-[675px]:hidden"
+      >
+        <a class="hover:text-[#696969] hover:scale-110 transition" href=""
+          >Главная</a
+        >
+        <a
+          class="hover:text-[#696969] hover:scale-110 transition"
+          href="./categories.html"
+          >Страница категории</a
+        >
+        <a
+          class="hover:text-[#696969] hover:scale-110 transition"
+          href="./basket.html"
+          >Корзина</a
+        >
+        <a
+          class="hover:text-[#696969] hover:scale-110 transition"
+          href="#cardsInfo"
+          >О нас</a
+        >
+        <a class="hover:text-[#696969] hover:scale-110 transition" href=""
+          >Контакты и адреса</a
+        >
+        <b>© Строй Материал 2023</b>
+      </div>
+      <main>
+        <div class="flex items-center justify-between px-3 mt-8">
+          <h1 class="text-[#2e2e2e] text-2xl">Категории товаров</h1>
+          <button id="show-more-btn" class="border-[4px] px-1 py-1">
+            Показать больше
+          </button>
+        </div>
+
+        <div class="categories">
+          <div class="category">
+            <a href="/public/product-page.html">
+              <img src="../assets/iconCardCategory/metal-product.jpg" alt="" />
+              <b>Металлопрокат</b>
+            </a>
+          </div>
+          <div class="category">
+            <a href="">
+              <img src="../assets/iconCardCategory/santehnika.jpg" alt="" />
+              <b>Сантехника</b>
+            </a>
+          </div>
+          <div class="category">
+            <a href="">
+              <img src="../assets/iconCardCategory/shnury.jpg" alt="" />
+              <b>Электрика</b>
+            </a>
+          </div>
+          <div class="category">
+            <a href="">
+              <img src="../assets/iconCardCategory/steny.jpg" alt="" />
+              <b>Стеновые и фасадные материалы</b>
+            </a>
+          </div>
+          <div class="category">
+            <a href="">
+              <img src="../assets/iconCardCategory/stroitelno.jpg" alt="" />
+              <b>Строительные расходные материалы</b>
+            </a>
+          </div>
+          <div id="hidden-content">
+            <div class="w-full flex justify-center flex-wrap gap-[18px]">
+              <div class="w-[280px] h-[250px] border-[#c6c6c6] border">
+                <a class="flex flex-col items-center" href="">
+                  <img
+                    class="w-[181px] h-[181px]"
+                    src="../assets/iconCardCategory/smesi.jpg"
+                    alt=""
+                  />
+                  <b>Сухие строительные смеси</b>
+                </a>
+              </div>
+              <div class="w-[280px] h-[250px] border-[#c6c6c6] border">
+                <a class="flex flex-col items-center" href="">
+                  <img
+                    class="w-[181px] h-[181px]"
+                    src="../assets/iconCardCategory/lacocrasochnay.png"
+                    alt=""
+                  />
+                  <b>Лакокрасочные материалы</b>
+                </a>
+              </div>
+              <div class="w-[280px] h-[250px] border-[#c6c6c6] border">
+                <a class="flex flex-col items-center" href="">
+                  <img
+                    class="w-[181px] h-[181px]"
+                    src="../assets/iconCardCategory/gidroizolyaci.jpg"
+                    alt=""
+                  />
+                  <b>Гидроизоляция</b>
+                </a>
+              </div>
+              <div class="w-[280px] h-[250px] border-[#c6c6c6] border">
+                <a class="flex flex-col items-center" href="">
+                  <img
+                    class="w-[181px] h-[181px]"
+                    src="../assets/iconCardCategory/teploizolyaciyz.jpg"
+                    alt=""
+                  />
+                  <b>Теплоизоляция</b>
+                </a>
+              </div>
+              <div class="w-[280px] h-[250px] border-[#c6c6c6] border">
+                <a class="flex flex-col items-center" href="">
+                  <img
+                    class="w-[181px] h-[181px]"
+                    src="../assets/iconCardCategory/klei-germetik.jpg"
+                    alt=""
+                  />
+                  <b>Пены, Клеи, Герметики.</b>
+                </a>
+              </div>
+              <div class="w-[280px] h-[250px] border-[#c6c6c6] border">
+                <a class="flex flex-col items-center" href="">
+                  <img
+                    class="w-[181px] h-[181px]"
+                    src="../assets/iconCardCategory/avtomat.png"
+                    alt=""
+                  />
+                  <b>Автоматы</b>
+                </a>
+              </div>
+              <div class="w-[280px] h-[250px] border-[#c6c6c6] border">
+                <a class="flex flex-col items-center" href="">
+                  <img
+                    class="w-[181px] h-[181px]"
+                    src="../assets/iconCardCategory/vykluchatel.png"
+                    alt=""
+                  />
+                  <b>Выключатели</b>
+                </a>
+              </div>
+              <div class="w-[280px] h-[250px] border-[#c6c6c6] border">
+                <a class="flex flex-col items-center" href="">
+                  <img
+                    class="w-[181px] h-[181px]"
+                    src="../assets/iconCardCategory/poli.png"
+                    alt=""
+                  />
+                  <b>Полипропиленовые фитинги</b>
+                </a>
+              </div>
+              <div class="w-[280px] h-[250px] border-[#c6c6c6] border">
+                <a class="flex flex-col items-center" href="">
+                  <img
+                    class="w-[181px] h-[181px]"
+                    src="../assets/iconCardCategory/myk.jpg"
+                    alt=""
+                  />
+                  <b>Крепежные материалы</b>
+                </a>
+              </div>
+              <div class="w-[280px] h-[250px] border-[#c6c6c6] border">
+                <a class="flex flex-col items-center" href="">
+                  <img
+                    class="w-[181px] h-[181px]"
+                    src="../assets/iconCardCategory/pilomaterial.jpg"
+                    alt=""
+                  />
+                  <b>Пиломатериалы</b>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="cardsInfo">
+          <div class="card">
+            <div
+              class="flex items-center gap-3 border-b-2 border-[#2e2e2e] pb-[10px]"
+            >
+              <img
+                class="w-[40px] h-[40px]"
+                src="../assets/storeInfoImg/company.png"
+                alt=""
+              />
+              <span>Продаем с 2023 года</span>
+            </div>
+            <p>— Прямые поставки продукции</p>
+            <p>— Заказы также принимаются</p>
+            <p>— Доставка по Москве и Московской области</p>
+          </div>
+          <div class="card">
+            <div
+              class="flex items-center gap-3 border-b-2 border-[#2e2e2e] pb-[10px]"
+            >
+              <img
+                class="w-[40px] h-[40px]"
+                src="../assets/storeInfoImg/time_work.png"
+                alt=""
+              />
+              <span>Режим работы</span>
+            </div>
+            <p>— Ежедневно с 8:30 до 18:00</p>
+            <p>— МКАД 41 км наша местоположение</p>
+            <p>— Большой ассортимент</p>
+          </div>
+          <div class="card">
+            <div
+              class="flex items-center gap-3 border-b-2 border-[#2e2e2e] pb-[10px]"
+            >
+              <img
+                class="w-[40px] h-[40px]"
+                src="../assets/storeInfoImg/screwdriver.png"
+                alt=""
+              />
+              <span>Дополнительные услуги</span>
+            </div>
+            <p>— Плазменная резка металла</p>
+            <p>— Лазерная резка металла</p>
+            <p>— Гибка листового металла</p>
+          </div>
+          <div class="card">
+            <div
+              class="flex items-center gap-3 border-b-2 border-[#2e2e2e] pb-[10px]"
+            >
+              <img
+                class="w-[40px] h-[40px]"
+                src="../assets/storeInfoImg/credit-card.png"
+                alt=""
+              />
+              <span>Способ оплаты</span>
+            </div>
+            <p>— Оплата по факту доставки</p>
+          </div>
+          <div class="card">
+            <div
+              class="flex items-center gap-3 border-b-2 border-[#2e2e2e] pb-[10px]"
+            >
+              <img
+                class="w-[40px] h-[40px]"
+                src="../assets/storeInfoImg/handset.png"
+                alt=""
+              />
+              <span>Помощь в выборе товара</span>
+            </div>
+            <p>— Команда проффесиональных консультантов</p>
+            <p>— Услуги проектировщика</p>
+          </div>
+          <div class="card">
+            <div
+              class="flex items-center gap-3 border-b-2 border-[#2e2e2e] pb-[10px]"
+            >
+              <img
+                class="w-[40px] h-[40px]"
+                src="../assets/storeInfoImg/shopping-cart.png"
+                alt=""
+              />
+              <span>Более 5000 товаров</span>
+            </div>
+            <p>— Металлопрокат</p>
+            <p>— Хозяйственные товары</p>
+            <p>— Сухие строительные материалы</p>
+          </div>
+        </div>
+      </main>
+      <div class="w-full">
+        <script
+          type="text/javascript"
+          charset="utf-8"
+          async
+          src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad27375e1524096c38a138e3fce045f005f4716f951d4d62052bce5a0da7ba80d&amp;width=100%25&amp;height=450&amp;lang=ru_RU&amp;scroll=true"
+        ></script>
+      </div>
+      <footer
+        class="w-full flex-col flex py-4 px-4 bg-[#052e16] text-base text-white md:flex-row md:gap-2 lg:gap-4"
+      >
+        <div class="w-full mb-5 text-sm flex flex-col md:w-1/3">
+          <img class="w-24 mb-6" src="../assets/logo2dark-bg.png" alt="" />
+          <p>
+            "Мир строй материалов" - крупный поставщик качественных строительных
+            материалов и товаров хозяйственного назначения, предлагающий широкий
+            ассортимент товаров на выгодных условиях.
+          </p>
+        </div>
+        <div class="w-full mb-5 text-sm flex flex-col md:w-1/3">
+          <h4 class="text-2xl mb-2">Наши основные приоритеты</h4>
+          <ul>
+            <li>
+              Компания осуществляет комплексный подход к обеспечению своих
+              клиентов любым необходимым ассортиментом строительных материалов и
+              товаров для дома, гарантируя удобство и экономию времени.
+            </li>
+            <li class="pt-2">
+              У нас вы найдете все необходимые строительные материалы, начиная
+              от самых мелких и заканчивая крупными материалами!
+            </li>
+          </ul>
+        </div>
+        <div class="w-full gap-3 text-sm flex flex-col md:w-1/3">
+          <div class="flex gap-4 w-1/3">
+            <img class="w-9 invert" src="../assets/phone.svg" alt="" />
+            <div class="flex-col flex">
+              <b>+79017029445</b>
+              <b>+79160540090</b>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <img class="w-9 invert" src="../assets/delivery.svg" alt="" />
+            <p class="w-full">
+              Доставка по Москве и Московской области. Оплата по факту доставки.
+            </p>
+          </div>
+          <div class="flex gap-4">
+            <img class="w-9 invert" src="../assets/location.svg" alt="" />
+            <p>Строительный рынок "Мельница" МКАД 41 км наша местоположение.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="../public/script.js"></script>
+  </body>
+</html>
